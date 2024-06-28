@@ -1,6 +1,11 @@
+<script setup>
+import Menu from '@/components/Menu.vue';
+</script>
+
 <template>
+  <Menu />
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>on learning Vue</h1>
   </div>
 </template>
 
@@ -8,7 +13,6 @@
 @media (min-width: 1024px) {
   .about {
     min-height: 100vh;
-    display: flex;
     align-items: center;
   }
 }
